@@ -1,0 +1,78 @@
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  font-weight: bolder;
+}
+article {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-items: center;
+  flex-direction: column;
+}
+.review {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: aliceblue;
+  width: 300px;
+  height: 500px;
+  padding: 30px;
+}
+.img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .person-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border-right: solid 0.8rem blue;
+  }
+ 
+  .quote-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    z-index: 1;
+    transform: translate(25px, -45px);
+  }
+}
+.author {
+  font-size: 1.5rem;
+}
+.job {
+  font-size: 1rem;
+  margin-top: -15px;
+  color: blue;
+  font-weight: bolder;
+}
+.info {
+  margin-top: -10px;
+  font-size: 1rem;
+  padding: 5px;
+  text-align: justify;
+}
+.btn {
+  display: flex;
+  gap: 10px;
+  .pre-btn {
+    color: blue;
+  }
+  .next-btn {
+    color: blue;
+  }
+  :hover {
+    color: rgb(127, 127, 232);
+  }
+}
