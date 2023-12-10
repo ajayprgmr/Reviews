@@ -7,10 +7,10 @@ function App() {
   const [index, setIndex] = useState(0)
   const { name, job, image, text } = people[index]
   const handlePreBtn = () => {
-    setIndex((index-1+people.length)%people.length)
+    setIndex((index - 1 + people.length) % people.length)
   }
   const handleNextBtn = () => {
-    setIndex((index+1)%people.length)
+    setIndex((index + 1) % people.length)
   }
   return (
     <article>

@@ -34,7 +34,7 @@ article {
     object-fit: cover;
     border-right: solid 0.8rem blue;
   }
- 
+
   .quote-icon {
     display: flex;
     justify-content: center;
